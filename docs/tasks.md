@@ -1,42 +1,42 @@
 # Liste des tâches pour l'implémentation du projet de gestion de bibliothèque de films
 
 ## Phase 0 : Préparation du projet
-- [ ] Créer le dépôt Git pour le projet
-- [ ] Configurer l'environnement de développement
-- [ ] Installer Node.js et npm/yarn
-- [ ] Initialiser un projet React avec Create React App
-- [ ] Configurer Electron avec React
-- [ ] Installer les dépendances nécessaires (React, Electron, Sequelize/TypeORM, Sharp)
-- [ ] Configurer TypeScript (optionnel mais recommandé)
-- [ ] Créer la structure de base du projet
+- [x] Créer le dépôt Git pour le projet
+- [x] Configurer l'environnement de développement
+- [x] Installer Node.js et npm/yarn
+- [x] Initialiser un projet React avec Create React App
+- [x] Configurer Electron avec React
+- [x] Installer les dépendances nécessaires (React, Electron, Sequelize/TypeORM, Sharp)
+- [x] Configurer TypeScript (optionnel mais recommandé)
+- [x] Créer la structure de base du projet
 
 ## Phase 1 : Base de données
-- [ ] Créer le script de création de la base de données SQLite
-- [ ] Implémenter les tables `films`, `categories`, `formats`, `film_categories`, `exemplaires`
-- [ ] Configurer Sequelize/TypeORM pour l'accès aux données
-- [ ] Créer les modèles pour chaque entité
-- [ ] Créer le script d'insertion des données initiales (catégories et formats)
-- [ ] Tester la création et l'initialisation de la base de données
+- [x] Créer le script de création de la base de données SQLite
+- [x] Implémenter les tables `films`, `categories`, `formats`, `film_categories`, `exemplaires`
+- [x] Configurer Sequelize/TypeORM pour l'accès aux données
+- [x] Créer les modèles pour chaque entité
+- [x] Créer le script d'insertion des données initiales (catégories et formats)
+- [x] Tester la création et l'initialisation de la base de données
 
 ## Phase 2 : Backend
-- [ ] Développer la couche d'accès aux données avec Electron
-  - [ ] Configurer les modèles Sequelize/TypeORM pour les films
-  - [ ] Configurer les modèles Sequelize/TypeORM pour les catégories
-  - [ ] Configurer les modèles Sequelize/TypeORM pour les formats
-  - [ ] Configurer les modèles Sequelize/TypeORM pour les exemplaires
-- [ ] Développer les services métier avec Node.js
-  - [ ] Service de gestion des films
-  - [ ] Service de gestion des catégories
-  - [ ] Service de gestion des formats
-  - [ ] Service de gestion des exemplaires
-- [ ] Implémenter la communication IPC entre les processus Electron
-  - [ ] Définir les canaux de communication
-  - [ ] Implémenter les gestionnaires d'événements
-- [ ] Implémenter la gestion des affiches de films
-  - [ ] Téléchargement et stockage des images avec Electron File System API
-  - [ ] Redimensionnement et optimisation avec Sharp
-  - [ ] Mise en cache des images pour améliorer les performances
-- [ ] Implémenter la validation des données avec Yup/Joi
+- [x] Développer la couche d'accès aux données avec Electron
+  - [x] Configurer les modèles Sequelize/TypeORM pour les films
+  - [x] Configurer les modèles Sequelize/TypeORM pour les catégories
+  - [x] Configurer les modèles Sequelize/TypeORM pour les formats
+  - [x] Configurer les modèles Sequelize/TypeORM pour les exemplaires
+- [x] Développer les services métier avec Node.js
+  - [x] Service de gestion des films
+  - [x] Service de gestion des catégories
+  - [x] Service de gestion des formats
+  - [x] Service de gestion des exemplaires
+- [x] Implémenter la communication IPC entre les processus Electron
+  - [x] Définir les canaux de communication
+  - [x] Implémenter les gestionnaires d'événements
+- [x] Implémenter la gestion des affiches de films
+  - [x] Téléchargement et stockage des images avec Electron File System API
+  - [x] Redimensionnement et optimisation avec Sharp
+  - [x] Mise en cache des images pour améliorer les performances
+- [x] Implémenter la validation des données avec Yup/Joi
 - [ ] Écrire les tests unitaires avec Jest
 
 ## Phase 3 : Frontend
